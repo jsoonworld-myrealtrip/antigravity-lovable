@@ -37,8 +37,8 @@ const ListingCard = ({ item, onClick, isFavorite, onToggleFavorite }) => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                         </svg>
                     </button>
-                    <div className="bg-white/90 backdrop-blur-sm px-2 py-1 rounded-lg text-xs font-semibold text-gray-700 shadow-sm flex items-center">
-                        {item.type === 'stay' ? '숙소' : item.type === 'tour' ? '투어' : '항공'}
+                    <div className="bg-white px-3 py-1.5 rounded-lg text-xs font-bold text-gray-800 shadow-md flex items-center border border-gray-200">
+                        {item.type === 'stay' ? '숙소' : item.type === 'tour' ? '투어·티켓' : '항공'}
                     </div>
                 </div>
             </div>
