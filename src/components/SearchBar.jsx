@@ -27,11 +27,16 @@ const SearchBar = ({ onSearch }) => {
 
                 <div className="flex gap-2">
                     {/* Date Picker Dummy */}
-                    <div className="flex-1 md:w-48 flex items-center bg-gray-50 rounded-xl px-4 py-3 border border-gray-100 cursor-pointer hover:bg-gray-100 transition-colors">
+                    {/* Date Picker */}
+                    <div className="flex-1 md:w-48 flex items-center bg-gray-50 rounded-xl px-4 py-3 border border-gray-100 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary transition-all">
                         <svg className="w-5 h-5 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
-                        <span className="text-gray-500 text-sm">날짜 선택</span>
+                        <input
+                            type="date"
+                            className="bg-transparent w-full outline-none text-gray-700 text-sm font-medium cursor-pointer"
+                            required
+                        />
                     </div>
 
                     <button
