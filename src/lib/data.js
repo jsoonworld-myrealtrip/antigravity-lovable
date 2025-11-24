@@ -10,7 +10,7 @@ export const MOCK_DATA = [
         price: 150000,
         rating: 4.8,
         reviews: 120,
-        image: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=2070&auto=format&fit=crop', // Jeju stone wall feel
+        image: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ export const MOCK_DATA = [
         price: 220000,
         rating: 4.5,
         reviews: 85,
-        image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=2070&auto=format&fit=crop', // Ocean view room
+        image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 5,
@@ -30,7 +30,7 @@ export const MOCK_DATA = [
         price: 180000,
         rating: 4.6,
         reviews: 210,
-        image: 'https://images.unsplash.com/photo-1634148636547-51f2075a74c5?q=80&w=2070&auto=format&fit=crop', // Busan cityscape/bridge
+        image: 'https://images.unsplash.com/photo-1634148636547-51f2075a74c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 101,
@@ -40,7 +40,7 @@ export const MOCK_DATA = [
         price: 280000,
         rating: 4.9,
         reviews: 56,
-        image: 'https://images.unsplash.com/photo-1596627006684-2a6285434449?q=80&w=2071&auto=format&fit=crop', // Hanok
+        image: 'https://images.unsplash.com/photo-1596627006684-2a6285434449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 102,
@@ -50,7 +50,7 @@ export const MOCK_DATA = [
         price: 160000,
         rating: 4.7,
         reviews: 92,
-        image: 'https://images.unsplash.com/photo-1595244792328-1d240255344b?q=80&w=2070&auto=format&fit=crop', // Traditional vibe
+        image: 'https://images.unsplash.com/photo-1595244792328-1d240255344b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
 
     // 해외 숙소 - 일본
@@ -62,7 +62,7 @@ export const MOCK_DATA = [
         price: 130000,
         rating: 4.4,
         reviews: 340,
-        image: 'https://images.unsplash.com/photo-1590559899731-a3828395a22c?q=80&w=2070&auto=format&fit=crop', // Osaka Dotonbori
+        image: 'https://images.unsplash.com/photo-1590559899731-a3828395a22c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 202,
@@ -72,7 +72,7 @@ export const MOCK_DATA = [
         price: 450000,
         rating: 4.9,
         reviews: 120,
-        image: 'https://images.unsplash.com/photo-1624253321171-1be53e12f5f4?q=80&w=2070&auto=format&fit=crop', // Kyoto street/traditional
+        image: 'https://images.unsplash.com/photo-1624253321171-1be53e12f5f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 203,
@@ -82,7 +82,7 @@ export const MOCK_DATA = [
         price: 210000,
         rating: 4.5,
         reviews: 215,
-        image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=1994&auto=format&fit=crop', // Tokyo Tower view
+        image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 204,
@@ -92,7 +92,7 @@ export const MOCK_DATA = [
         price: 95000,
         rating: 4.3,
         reviews: 180,
-        image: 'https://images.unsplash.com/photo-1558233043-45af9578119a?q=80&w=2070&auto=format&fit=crop', // Japanese street
+        image: 'https://images.unsplash.com/photo-1558233043-45af9578119a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
 
     // 해외 숙소 - 동남아
@@ -104,7 +104,7 @@ export const MOCK_DATA = [
         price: 180000,
         rating: 4.7,
         reviews: 450,
-        image: 'https://images.unsplash.com/photo-1565636291755-780cb30b6c6d?q=80&w=2070&auto=format&fit=crop', // Resort pool
+        image: 'https://images.unsplash.com/photo-1565636291755-780cb30b6c6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 302,
@@ -114,7 +114,7 @@ export const MOCK_DATA = [
         price: 150000,
         rating: 4.6,
         reviews: 320,
-        image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=2050&auto=format&fit=crop', // Bangkok city
+        image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 303,
@@ -124,7 +124,7 @@ export const MOCK_DATA = [
         price: 320000,
         rating: 4.9,
         reviews: 150,
-        image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2038&auto=format&fit=crop', // Bali villa
+        image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
 
     // 해외 숙소 - 유럽/미주
@@ -136,7 +136,7 @@ export const MOCK_DATA = [
         price: 420000,
         rating: 4.8,
         reviews: 95,
-        image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop', // Eiffel Tower
+        image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 402,
@@ -146,7 +146,7 @@ export const MOCK_DATA = [
         price: 380000,
         rating: 4.5,
         reviews: 78,
-        image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop', // London street
+        image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 403,
@@ -156,7 +156,7 @@ export const MOCK_DATA = [
         price: 550000,
         rating: 4.4,
         reviews: 110,
-        image: 'https://images.unsplash.com/photo-1496417263034-38ec4f0d665a?q=80&w=2071&auto=format&fit=crop', // NYC skyline
+        image: 'https://images.unsplash.com/photo-1496417263034-38ec4f0d665a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
 
     // 투어
@@ -168,7 +168,7 @@ export const MOCK_DATA = [
         price: 25000,
         rating: 4.9,
         reviews: 300,
-        image: 'https://images.unsplash.com/photo-1548115184-bc6544d06a58?q=80&w=2070&auto=format&fit=crop', // Palace
+        image: 'https://images.unsplash.com/photo-1548115184-bc6544d06a58?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 6,
@@ -178,7 +178,7 @@ export const MOCK_DATA = [
         price: 35000,
         rating: 4.7,
         reviews: 150,
-        image: 'https://images.unsplash.com/photo-1572248364230-7f4d2f85694f?q=80&w=2070&auto=format&fit=crop', // Jeju nature
+        image: 'https://images.unsplash.com/photo-1572248364230-7f4d2f85694f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 501,
@@ -188,7 +188,7 @@ export const MOCK_DATA = [
         price: 85000,
         rating: 4.8,
         reviews: 2000,
-        image: 'https://images.unsplash.com/photo-1624601573012-154d8349250d?q=80&w=2070&auto=format&fit=crop', // Theme park
+        image: 'https://images.unsplash.com/photo-1624601573012-154d8349250d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 502,
@@ -198,7 +198,7 @@ export const MOCK_DATA = [
         price: 65000,
         rating: 4.9,
         reviews: 450,
-        image: 'https://images.unsplash.com/photo-1499856871940-a09627c6d7db?q=80&w=2070&auto=format&fit=crop', // Louvre/Paris
+        image: 'https://images.unsplash.com/photo-1499856871940-a09627c6d7db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
 
     // 항공
@@ -210,7 +210,7 @@ export const MOCK_DATA = [
         price: 55000,
         rating: 4.2,
         reviews: 45,
-        image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop', // Airplane wing
+        image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 601,
@@ -220,7 +220,7 @@ export const MOCK_DATA = [
         price: 350000,
         rating: 4.5,
         reviews: 120,
-        image: 'https://images.unsplash.com/photo-1542296332-2e44a996aa0d?q=80&w=2070&auto=format&fit=crop', // Tokyo
+        image: 'https://images.unsplash.com/photo-1542296332-2e44a996aa0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 602,
@@ -230,6 +230,6 @@ export const MOCK_DATA = [
         price: 450000,
         rating: 4.3,
         reviews: 80,
-        image: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=2070&auto=format&fit=crop', // Travel generic
+        image: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     }
 ];

@@ -17,6 +17,9 @@ const ListingCard = ({ item, onClick, isFavorite, onToggleFavorite }) => {
                     src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                        e.target.src = 'https://images.unsplash.com/photo-1496417263034-38ec4f0d665a?q=80&w=1000&auto=format&fit=crop'; // Fallback image
+                    }}
                 />
                 <div className="absolute top-3 right-3 flex gap-2">
                     <button
