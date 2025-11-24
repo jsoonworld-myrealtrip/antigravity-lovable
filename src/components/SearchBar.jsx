@@ -26,23 +26,24 @@ const SearchBar = ({ onSearch }) => {
                 </div>
 
                 <div className="flex gap-2">
-                    {/* Date Picker Dummy */}
                     {/* Date Picker */}
-                    <div className="flex-1 md:w-48 flex items-center bg-gray-50 rounded-xl px-4 py-3 border border-gray-100 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary transition-all">
-                        <svg className="w-5 h-5 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <label className="flex-1 md:w-48 flex items-center bg-gray-50 rounded-xl px-4 py-3 border border-gray-100 hover:border-primary cursor-pointer transition-all">
+                        <svg className="w-5 h-5 text-gray-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
                         <input
                             type="date"
                             className="bg-transparent w-full outline-none text-gray-700 text-sm font-medium cursor-pointer"
-                            required
                         />
-                    </div>
+                    </label>
 
                     <button
                         type="submit"
-                        className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-md shadow-primary/30"
+                        className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-md shadow-primary/30 flex items-center gap-2"
                     >
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
                         검색
                     </button>
                 </div>
