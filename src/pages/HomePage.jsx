@@ -92,13 +92,13 @@ const HomePage = () => {
     return (
         <div className="min-h-screen bg-gray-50 pb-20">
             {/* Hero Section */}
-            <div className="bg-gradient-to-br from-primary to-secondary pb-12">
+            <div className="bg-white pb-12 border-b border-gray-200">
                 <Header />
-                <div className="max-w-7xl mx-auto px-6 pt-8 pb-16 text-center text-white">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
+                <div className="max-w-7xl mx-auto px-6 pt-8 pb-16 text-center">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
                         여행의 모든 것,<br />마이리얼트립 프로토타입
                     </h1>
-                    <p className="text-lg opacity-90 mb-8">
+                    <p className="text-lg text-gray-600 mb-8">
                         전 세계 숙소, 투어, 티켓, 항공권을 예약하세요.
                     </p>
                     <CategoryTabs

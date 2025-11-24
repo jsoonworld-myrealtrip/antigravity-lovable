@@ -14,16 +14,17 @@ const CategoryTabs = ({ activeCategory, onCategoryChange }) => {
                 <button
                     key={cat.id}
                     onClick={() => onCategoryChange(cat.id)}
-                    className={`flex flex-col items-center gap-2 group transition-all duration-300 ${activeCategory === cat.id ? 'text-white scale-110' : 'text-white/70 hover:text-white hover:scale-105'
+                    className={`flex flex-col items-center gap-2 group transition-all duration-300 ${activeCategory === cat.id ? 'scale-110' : 'hover:scale-105'
                         }`}
                 >
-                    <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-lg backdrop-blur-sm transition-all duration-300 ${activeCategory === cat.id
-                            ? 'bg-white/20 ring-2 ring-white/50'
-                            : 'bg-white/10 group-hover:bg-white/20'
+                    <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-lg transition-all duration-300 ${activeCategory === cat.id
+                            ? 'bg-gradient-to-br from-primary to-secondary text-white ring-2 ring-primary/30'
+                            : 'bg-white text-gray-700 group-hover:bg-gray-50 border border-gray-200'
                         }`}>
                         {cat.icon}
                     </div>
-                    <span className="font-semibold text-sm tracking-wide">{cat.label}</span>
+                    <span className={`font-semibold text-sm tracking-wide ${activeCategory === cat.id ? 'text-primary' : 'text-gray-700'
+                        }`}>{cat.label}</span>
                 </button>
             ))}
         </div>
